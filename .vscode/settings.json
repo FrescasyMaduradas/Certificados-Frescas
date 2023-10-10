@@ -1,0 +1,35 @@
+{
+    "cSpell.words": [
+        "Maduradas"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#008800",
+        "activityBar.background": "#008800",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#0000df",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#008800",
+        "statusBar.background": "#005500",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#008800",
+        "statusBarItem.remoteBackground": "#005500",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#005500",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#00550099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#005500",
+    "cSpell.language": "en,la,es,es-ES,lorem",
+    "cSpell.enableFiletypes": [
+        "!css",
+        "jsonl",
+        "powershell",
+        "search-result",
+        "tailwindcss"
+    ],
+    "vsicons.presets.angular": true,
+    "liveServer.settings.port": 5501
+}

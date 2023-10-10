@@ -1,0 +1,537 @@
+*{
+  font-family: 'Gabarito', cursive;
+  font-size: 15px;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    height: 500px;
+    position: relative;
+    font-family: 'Gabarito', cursive;
+  }
+  .fondo {
+    background-image: url(imágenes/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  .encabezado {
+    background-color: #ebcba3;
+    opacity: 0.9;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    left: 18px;
+    border-radius: 26px;
+  }
+  .encabezado a img {
+    width: 100%;
+    height: 120px;
+  }
+  .fondo2 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(00, 00, 00, 0.3);
+    border-radius: 26px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+  }
+  .fondo2 h1{
+    padding-top: 30px;
+    font-family: 'Martian Mono', monospace;
+
+}
+  .documento {
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    left: 200px;
+    position: relative;
+  }
+  .documento p {
+    top: 20px;
+    position: relative;
+  }
+  .documento select {
+    height: 30px;
+    font-size: 14px;
+  }
+  .documento option {
+    font-size: 1rem;
+  }
+  .ingresa_doc {
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    left: 200px;
+    position: relative;
+  }
+  .ingresa_doc p {
+    top: 20px;
+    position: relative;
+  }
+  .ingresa_doc input {
+    height: 20px;
+    font-size: 18px;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  form {
+    width: 90%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input {
+    width: 150%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .terminos{
+  width: 120%;
+  }
+  .terminos input {
+    width: 10%;
+    left: 40px;
+    position: relative;
+  }
+  .terminos label{
+    width: 10%;
+    left: 40px;
+    position: relative;
+  }
+
+  .botonEnviar{
+    width: 70%;
+    height: 30px;
+    font-size: 17px;  
+    cursor: pointer;
+    border-radius: 10px;
+    left: 100px;
+    position: relative;
+  }
+
+  .botonEnviar:active{
+    background-color: #ebcba3;
+    box-shadow: #000 1px 4px;
+  }
+
+  @media (max-width: 1440px) {
+    .fondo {
+      width: 95%;
+      height: auto;
+    }
+  }
+  /*1284*/
+  @media (max-width: 1284px) {
+    .fondo {
+      width: 95%;
+      height: auto;
+    }
+
+  .encabezado {
+    background-color: #ebcba3;
+    opacity: 0.9;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    left: 18px;
+    border-radius: 26px;
+  }
+  .encabezado a img {
+    width: 100%;
+    height: 120px;
+  }
+  .fondo2 input {
+    width: 150%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+    .fondo2 input[type="submit"] {
+    color: #ffffff;
+    padding: 10px 2px;
+    cursor: pointer;
+  }
+    .terminos {
+      width: 120%;
+    }
+    .terminos label {
+      width: 1%;
+      font-size: 15px;
+      position: relative;
+      left: 40px;
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: 40px;
+    }
+    .botonEnviar{
+      width: 70%;
+      height: 30px;
+      font-size: 17px;  
+      cursor: pointer;
+      border-radius: 10px;
+      left: 100px;
+      position: relative;
+    }
+  } /*1280*/
+  /*991*/
+  @media (max-width: 991px) {
+    .fondo {
+      width: 95%;
+      height: auto;
+    }
+    .encabezado {
+      background-color: #ebcba3;
+      opacity: 0.9;
+      width: 100%;
+      height: 150px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      position: relative;
+      left: 18px;
+      border-radius: 26px;
+    }
+  .encabezado a {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .encabezado a img {
+    width: 50%;
+    height: auto;
+  }
+    .fondo2{
+      height: 500px;
+      }
+    .terminos {
+      width: 120%;
+    }
+    .fondo2 input {
+      width: 140%;
+      padding: 10px;
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+      .fondo2 input[type="submit"] {
+      color: #ffffff;
+      padding: 10px 2px;
+      cursor: pointer;
+    }
+    .terminos label {
+      width: 1%;
+      font-size: 15px;
+      position: relative;
+      left: 90px;
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: 100px;
+    }
+
+    .botonEnviar{
+      width: 50%;
+      height: 30px;
+      font-size: 17px;  
+      cursor: pointer;
+      border-radius: 10px;
+      left: 150px;
+      position: relative;
+    }
+  } /*991*/
+  /*750*/
+  @media (max-width: 749px) {
+    .fondo {
+      width: 92%;
+      height: 50px;
+    }
+    .fondo2 h1 {
+      font-size: 25px;
+    }
+    .encabezado a {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .encabezado a img {
+      width: 60%;
+      height: auto;
+    }
+    .fondo2 input {
+      width: 120%;
+      padding: 10px;
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+      .fondo2 input[type="submit"] {
+      color: #ffffff;
+      padding: 10px 2px;
+      cursor: pointer;
+    }
+    .terminos {
+      width: 120%;
+    }
+    .terminos label {
+      width: 10%;
+      font-size: 15px;
+      position: relative;
+      left: 30px;
+  
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: 28px;
+    }
+    .botonEnviar{
+      width: 50%;
+      height: 30px;
+      font-size: 17px;  
+      cursor: pointer;
+      border-radius: 10px;
+      left: 100px;
+      position: relative;
+    }
+  } /* 750 */
+  /* 650 */
+  @media (max-width: 650px) {
+
+      .fondo {
+        width: 92%;
+        height: 50px;
+      }
+      .fondo2 h1 {
+        font-size: 25px;
+      }
+    .fondo2 input {
+      width: 120%;
+      padding: 10px;
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+      .fondo2 input[type="submit"] {
+      color: #ffffff;
+      padding: 10px 2px;
+      cursor: pointer;
+    }
+    
+    
+    .encabezado a {
+      width: 95%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .encabezado a img {
+      width: 70%;
+      height: auto;
+    }
+    .terminos {
+      width: 120%;
+      height: auto;
+    }
+    .terminos label {
+      width: 100%;
+      font-size: 15px;
+      position: relative;
+      left: 0px;
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: 0px;
+    }
+    .botonEnviar{
+      width: 50%;
+      height: 30px;
+      font-size: 17px;  
+      cursor: pointer;
+      border-radius: 10px;
+      left: 80px;
+    }
+  }
+   /* 650*/
+   /* 513*/
+  @media (max-width: 513px) {
+    body {
+      height: 500px;
+    }
+    .fondo {
+      width: 90%;
+      height: auto;
+    }
+    .fondo2{
+      height: 500px;
+  }
+  
+    .fondo2 h1 {
+      font-size: 22px;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .fondo2 input {
+      width: 50%;
+      position: relative;
+      right: 20px;
+    }
+    .encabezado a {
+      width: 95%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .encabezado a img {
+      width: 80%;
+      height: auto;
+    }
+    .terminos {
+      width:120%;
+    }
+    .fondo2 input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px;
+      background-color: #ffffff;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      left: 0px;
+    }
+      .fondo2 input[type="submit"] {
+      color: #ffffff;
+      padding: 10px 2px;
+      cursor: pointer;
+    }
+    
+    .terminos label {
+      width: 1%;
+      font-size: 15px;
+      position: relative;
+      left: 0px;
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: 0px;
+    }
+    .botonEnviar{
+      width: 40%;
+      height: 30px;
+      left: 160px;
+      font-size: 15px;  
+      cursor: pointer;
+      border-radius: 10px;
+      position: relative;
+      left: 100px;
+    }
+  } /*513 */
+   /*450*/
+  @media (max-width: 450px) {
+    body {
+      width: 100%;
+      height: 100px;
+  
+    }
+    .fondo {
+      width: 90%;
+      height: 18px;
+    }
+  
+    .fondo2{
+      height: 500px;
+  }
+  
+    .terminos {
+      width: 60%;
+    }
+    .encabezado a {
+      width: 95%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .encabezado a img {
+      width: 80%;
+      height: auto;
+    }
+    .fondo2 form input{
+      margin: 10px auto;
+      right: 40px;
+  }
+
+
+  .fondo2 input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+  .fondo2 input[type="submit"] {
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+  .terminos{
+    width: 120%;
+  }
+
+    .terminos label {
+      width: 10%;
+      font-size: 15px;
+      position: -ms-page;
+      left: -10px;
+    }
+    .terminos input {
+      width: 10%;
+      position: relative;
+      left: -10px;
+    }
+    .botonEnviar{
+      width: 50%;
+      height: 30px;
+      left: 150px;
+      font-size: 17px;  
+      cursor: pointer;
+      border-radius: 10px;
+      position: relative;
+      left: 70px;
+    }
+  } /*450*/
+  
