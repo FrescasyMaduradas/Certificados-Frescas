@@ -15,9 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
   </head>
+
   <body class="fondo">
     <header class="encabezado">
       <a href="#"><img src="imágenes/Recurso 2.png" alt="..." /></a>
@@ -30,7 +29,12 @@
         <input type="text" name="Identificación" placeholder="Número de Identificación" required>
         <input type="text" name="Puesto" placeholder="Puesto de trabajo" required>
         <input type="date" name="Fecha" placeholder="ingresa tu fecha de ingreso" required>
-        <input type="text" name="Tiempo" placeholder="Tiempo en la empresa" required>
+        <select class="Contrato" name="Contrato" name="Contrato">
+          <option selected value="">Elije El tipo de contrato</option>
+          <option value="Contrato Término Indefinido">Contrato Término Indefinido</option>
+          <option value="Contrato Término Fijo">Contrato Término Fijo</option>
+          <option value="Contrato Término Aprendizaje">Contrato Término Aprendizaje</option>
+        </select>
         <div class="terminos">
           <input type="checkbox" id="terminos-y-condiciones-aceptado" name="Términos"/>
           <label for="terminos-y-condiciones-aceptado">Acepto los términos y condiciones</label>

@@ -113,11 +113,23 @@ body {
     width: 10%;
     left: 40px;
     position: relative;
+    top: 10px;
   }
   .terminos label{
     width: 10%;
     left: 40px;
     position: relative;
+    top: 10px;
+  }
+
+  .Contrato{
+    width: 159%;
+    height: 40px;
+    text-align: justify;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 8px;
   }
 
   .botonEnviar{
@@ -127,6 +139,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     left: 100px;
+    top: 15px;
     position: relative;
   }
 
@@ -180,6 +193,15 @@ body {
     .terminos {
       width: 120%;
     }
+    .Contrato{
+      width: 159%;
+      height: 40px;
+      text-align: justify;
+      font-size: 15px;
+      position: relative;
+      left: 10px;
+      top: 8px;
+    }
     .terminos label {
       width: 1%;
       font-size: 15px;
@@ -226,7 +248,7 @@ body {
     justify-content: center;
   }
   .encabezado a img {
-    width: 50%;
+    width: 45%;
     height: auto;
   }
     .fondo2{
@@ -248,25 +270,34 @@ body {
       padding: 10px 2px;
       cursor: pointer;
     }
+    .Contrato{
+      width: 149%;
+      height: 40px;
+      text-align: justify;
+      font-size: 15px;
+      position: relative;
+      left: 10px;
+      top: 8px;
+    }
     .terminos label {
       width: 1%;
       font-size: 15px;
       position: relative;
-      left: 90px;
+      left: 40px;
     }
     .terminos input {
       width: 10%;
       position: relative;
-      left: 100px;
+      left: 40px;
     }
 
     .botonEnviar{
-      width: 50%;
+      width: 70%;
       height: 30px;
       font-size: 17px;  
       cursor: pointer;
       border-radius: 10px;
-      left: 150px;
+      left: 120px;
       position: relative;
     }
   } /*991*/
@@ -301,6 +332,15 @@ body {
       color: #ffffff;
       padding: 10px 2px;
       cursor: pointer;
+    }
+    .Contrato{
+      width: 129%;
+      height: 40px;
+      text-align: justify;
+      font-size: 15px;
+      position: relative;
+      left: 10px;
+      top: 8px;
     }
     .terminos {
       width: 120%;
@@ -361,6 +401,15 @@ body {
     .encabezado a img {
       width: 70%;
       height: auto;
+    }
+    .Contrato{
+      width: 129%;
+      height: 40px;
+      text-align: justify;
+      font-size: 15px;
+      position: relative;
+      left: 10px;
+      top: 8px;
     }
     .terminos {
       width: 120%;
@@ -437,6 +486,15 @@ body {
       padding: 10px 2px;
       cursor: pointer;
     }
+    .Contrato{
+      width: 109%;
+      height: 40px;
+      text-align: justify;
+      font-size: 15px;
+      position: relative;
+      left: 10px;
+      top: 8px;
+    }
     
     .terminos label {
       width: 1%;
@@ -507,6 +565,15 @@ body {
   color: #ffffff;
   padding: 10px 20px;
   cursor: pointer;
+}
+.Contrato{
+  width: 109%;
+  height: 40px;
+  text-align: justify;
+  font-size: 15px;
+  position: relative;
+  left: 0px;
+  top: 8px;
 }
   .terminos{
     width: 120%;
