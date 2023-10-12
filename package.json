@@ -4,7 +4,8 @@
   "description": "Autentificacion de usuarios",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "swig": "^1.4.2"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "lite-server": "^2.6.1"
   }
 }
