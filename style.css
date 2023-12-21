@@ -1,14 +1,13 @@
 *{
   font-family: 'Gabarito', cursive;
   font-size: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 100%;
-    max-width: 1440px;
-    height: 500px;
-    position: relative;
     font-family: 'Gabarito', cursive;
+    padding-top: 20px;
   }
   .fondo {
     background-image: url(imágenes/fondo.png);
@@ -20,609 +19,155 @@ body {
   .encabezado {
     background-color: #ebcba3;
     opacity: 0.9;
-    width: 100%;
+    width: 95%;
     height: 150px;
-    justify-content: center;
+    display: grid;
     align-items: center;
-    display: flex;
-    position: relative;
-    left: 18px;
     border-radius: 26px;
+    left: 20px;
+    position: relative;
   }
   .encabezado a img {
-    width: 35%;
+    width: 350px;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
     display: flex;
   }
   .fondo2 {
-    width: 98%;
+    width: 95%;
     height: 500px;
     background-color: rgb(00, 00, 00, 0.3);
     border-radius: 36px;
-    margin: 40px;
-    align-items: center;
-    justify-content: center;
+    margin:20px;
     text-align: center;
     color: white;
   }
 
   .fondo2 form{
     width: 100%;
-    display: grid;
-    grid-template-columns: 2;
-    gap: 10px;
   }
 
   .fondo2 h1{
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-family: 'Martian Mono', monospace;
     text-shadow: 0 10px 10px rgb(0, 0, 0);
 
-}
-  .documento {
-    width: 50%;
-    font-size: 20px;
-    text-align: left;
-    left: 200px;
-    position: relative;
-  }
-  .documento p {
-    top: 20px;
-    position: relative;
-  }
-  .documento select {
-    height: 30px;
-    font-size: 14px;
-  }
-  .documento option {
-    font-size: 1rem;
-  }
-  .ingresa_doc {
-    width: 50%;
-    text-align: left;
-    font-size: 20px;
-    left: 200px;
-    position: relative;
-  }
-  .ingresa_doc p {
-    top: 20px;
-    position: relative;
-  }
-  .ingresa_doc input {
-    height: 20px;
-    font-size: 18px;
-  }
-  body {
-    font-family: sans-serif;
   }
   h1 {
+    width: 100%;
     font-size: 2em;
+    text-align: center;
   }
   form {
-    width: 90%;
-    height: auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   input {
-    width: 150%;
+    width: 45%;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #ccc;
   }
   input[type="submit"] {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
     cursor: pointer;
   }
   .terminos{
-  width: 120%;
+  width: 400px;
+  overflow: hidden;
   }
-  .terminos input {
-    width: 10%;
-    left: 40px;
-    position: relative;
-    top: 10px;
-  }
-  .terminos label{
-    width: 10%;
-    left: 40px;
-    position: relative;
-    top: 10px;
+  .terminos input{
+    width: 80px;
   }
 
+  
   .Contrato{
-    width: 157.7%;
-    height: 40px;
-    margin-bottom: 12px;
-    align-items: center;
-    justify-content: center;
+    width: 47%;
+    margin: 10px;
+    padding: 10px;
     font-size: 15px;
     position: relative;
-    left: 10px;
-    top: 8px;
+    top: 0px;
+    cursor: pointer;
   }
 
   .botonEnviar{
-    width: 70%;
+    width: 15%;
     height: 30px;
     font-size: 17px;  
     cursor: pointer;
     border-radius: 10px;
-    left: 100px;
-    top: 15px;
-    position: relative;
+    left: 0px;
+    top: 0px;
   }
 
   .botonEnviar:active{
     background-color: #ebcba3;
     box-shadow: #000 1px 4px;
   }
-
-  @media (max-width: 1440px) {
-    .fondo {
-      width: 95%;
-      height: auto;
-    }
-  }
-  /*1284*/
-  @media (max-width: 1284px) {
-    .fondo {
-      width: 95%;
-      height: auto;
-    }
-
-  .encabezado {
-    background-color: #ebcba3;
-    opacity: 0.9;
-    width: 100%;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: relative;
-    left: 18px;
-    border-radius: 26px;
-  }
-  .encabezado a img {
-    width: 40%;
-    height: auto;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-  .fondo2 input {
-    width: 150%;
-    padding: 10px;
-    margin: 10px;
-    background-color: #ffffff;
-    border: 1px solid #ccc;
-    cursor: pointer;
-  }
-    .fondo2 input[type="submit"] {
-    color: #ffffff;
-    padding: 10px 2px;
-    cursor: pointer;
-  }
-    .terminos {
-      width: 120%;
-    }
-    .Contrato{
-      width: 159%;
-      height: 40px;
-      text-align: justify;
-      font-size: 15px;
-      position: relative;
-      left: 10px;
-      top: 8px;
-    }
-    .terminos label {
-      width: 1%;
-      font-size: 15px;
-      position: relative;
-      left: 40px;
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: 40px;
-    }
-    .botonEnviar{
-      width: 70%;
-      height: 30px;
-      font-size: 17px;  
-      cursor: pointer;
-      border-radius: 10px;
-      left: 100px;
-      position: relative;
-    }
-  } /*1280*/
-  /*991*/
-  @media (max-width: 991px) {
-    .fondo {
-      width: 95%;
-      height: auto;
-    }
-    .encabezado {
-      background-color: #ebcba3;
-      opacity: 0.9;
-      width: 100%;
-      height: 150px;
-      justify-content: center;
-      align-items: center;
-      display: flex;
-      position: relative;
-      left: 18px;
-      border-radius: 26px;
-    }
-  .encabezado a {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-  }
-  .encabezado a img {
-    width: 45%;
-    height: auto;
-  }
-    .fondo2{
-      height: 500px;
-      }
-    .terminos {
-      width: 120%;
-    }
-    .fondo2 input {
-      width: 140%;
-      padding: 10px;
-      margin: 10px;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      cursor: pointer;
-    }
-      .fondo2 input[type="submit"] {
-      color: #ffffff;
-      padding: 10px 2px;
-      cursor: pointer;
-    }
-    .Contrato{
-      width: 149%;
-      height: 40px;
-      text-align: justify;
-      font-size: 15px;
-      position: relative;
-      left: 10px;
-      top: 8px;
-    }
-    .terminos label {
-      width: 1%;
-      font-size: 15px;
-      position: relative;
-      left: 40px;
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: 40px;
-    }
+  /* 991px */
+  @media(max-width:991px){
 
     .botonEnviar{
-      width: 70%;
-      height: 30px;
-      font-size: 17px;  
-      cursor: pointer;
-      border-radius: 10px;
-      left: 120px;
-      position: relative;
+      width: 18%;
     }
-  } /*991*/
+  }
   /*750*/
   @media (max-width: 749px) {
-    .fondo {
-      width: 92%;
-      height: 50px;
-    }
-    .fondo2 h1 {
-      font-size: 25px;
-      text-shadow: 0 10px 10px rgb(0, 0, 0);
-    }
-    .encabezado a {
-      width: 100%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-    }
-    .encabezado a img {
-      width: 60%;
-      height: auto;
-    }
-    .fondo2 input {
-      width: 120%;
-      padding: 10px;
-      margin: 10px;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      cursor: pointer;
-    }
-      .fondo2 input[type="submit"] {
-      color: #ffffff;
-      padding: 10px 2px;
-      cursor: pointer;
+    input{
+      width: 280px;
     }
     .Contrato{
-      width: 129%;
-      height: 40px;
-      text-align: justify;
-      font-size: 15px;
-      position: relative;
-      left: 10px;
-      top: 8px;
+      width: 300px;
     }
-    .terminos {
-      width: 120%;
-    }
-    .terminos label {
-      width: 10%;
-      font-size: 15px;
-      position: relative;
-      left: 30px;
-  
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: 28px;
+    h1{
+      font-size: 1.5rem;
     }
     .botonEnviar{
-      width: 50%;
-      height: 30px;
-      font-size: 17px;  
-      cursor: pointer;
-      border-radius: 10px;
-      left: 100px;
-      position: relative;
+      width: 150px;
     }
   } /* 750 */
-  /* 650 */
-  @media (max-width: 650px) {
 
-      .fondo {
-        width: 92%;
-        height: 50px;
-      }
-      .fondo2 h1 {
-        font-size: 25px;
-        text-shadow: 0 10px 10px rgb(0, 0, 0);
-      }
-    .fondo2 input {
-      width: 120%;
-      padding: 10px;
-      margin: 10px;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      cursor: pointer;
-    }
-      .fondo2 input[type="submit"] {
-      color: #ffffff;
-      padding: 10px 2px;
-      cursor: pointer;
-    }
-    
-    
-    .encabezado a {
-      width: 95%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-    }
-    .encabezado a img {
-      width: 70%;
-      height: auto;
-    }
-    .Contrato{
-      width: 129%;
-      height: 40px;
-      text-align: justify;
-      font-size: 15px;
-      position: relative;
-      left: 10px;
-      top: 8px;
-    }
-    .terminos {
-      width: 120%;
-      height: auto;
-    }
-    .terminos label {
-      width: 100%;
-      font-size: 15px;
-      position: relative;
-      left: 0px;
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: 0px;
-    }
-    .botonEnviar{
-      width: 50%;
-      height: 30px;
-      font-size: 17px;  
-      cursor: pointer;
-      border-radius: 10px;
-      left: 80px;
-    }
-  }
-   /* 650*/
    /* 513*/
   @media (max-width: 513px) {
-    body {
-      height: 500px;
+    .terminos input{
+      width: 70px;
     }
-    .fondo {
-      width: 90%;
-      height: auto;
-    }
-    .fondo2{
-      height: 500px;
-  }
-  
-    .fondo2 h1 {
-      font-size: 22px;
-      padding-top: 20px;
-      text-align: center;
-      text-shadow: 0 10px 10px rgb(0, 0, 0);
-    }
-    .fondo2 input {
-      width: 50%;
-      position: relative;
-      right: 20px;
-    }
-    .encabezado a {
-      width: 95%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-    }
-    .encabezado a img {
-      width: 80%;
-      height: auto;
-    }
-    .terminos {
-      width:120%;
-    }
-    .fondo2 input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      cursor: pointer;
-      left: 0px;
-    }
-      .fondo2 input[type="submit"] {
-      color: #ffffff;
-      padding: 10px 2px;
-      cursor: pointer;
-    }
-    .Contrato{
-      width: 109%;
-      height: 40px;
-      text-align: justify;
-      font-size: 15px;
-      position: relative;
-      left: 10px;
-      top: 8px;
-    }
-    
-    .terminos label {
-      width: 1%;
-      font-size: 15px;
-      position: relative;
-      left: 0px;
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: 0px;
-    }
-    .botonEnviar{
-      width: 40%;
-      height: 30px;
-      left: 160px;
-      font-size: 15px;  
-      cursor: pointer;
-      border-radius: 10px;
-      position: relative;
-      left: 100px;
+    .encabezado a img{
+      width: 75%;
     }
   } /*513 */
+  
    /*450*/
   @media (max-width: 450px) {
-    body {
-      width: 100%;
-      height: 100px;
-  
+    .encabezado a img{
+      width: 75%;
     }
-    .fondo {
-      width: 90%;
-      height: 18px;
+    input{
+      width: 67%;
     }
-  
-    .fondo2{
-      height: 500px;
-  }
-  
-    .terminos {
-      width: 60%;
-    }
-    .encabezado a {
-      width: 95%;
-      height: auto;
-      display: flex;
-      justify-content: center;
-    }
-    .encabezado a img {
-      width: 80%;
-      height: auto;
-    }
-    .fondo2 form input{
-      margin: 10px auto;
-      right: 40px;
-  }
-
-
-  .fondo2 input {
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
-  .fondo2 input[type="submit"] {
-  color: #ffffff;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-.Contrato{
-  width: 109%;
-  height: 40px;
-  text-align: justify;
-  font-size: 15px;
-  position: relative;
-  left: 0px;
-  top: 8px;
-}
-  .terminos{
-    width: 120%;
-  }
-
-    .terminos label {
-      width: 10%;
-      font-size: 15px;
-      position: -ms-page;
-      left: -10px;
-    }
-    .terminos input {
-      width: 10%;
-      position: relative;
-      left: -10px;
+    .Contrato{
+      width: 73%;
     }
     .botonEnviar{
-      width: 50%;
-      height: 30px;
-      left: 150px;
-      font-size: 17px;  
-      cursor: pointer;
-      border-radius: 10px;
-      position: relative;
-      left: 70px;
+      width: 30%;
+      height: auto;
+    }
+    .fondo2{
+      height: auto;
+
+    }
+    .terminos{
+      width: 50%;  
+    }
+    .terminos input{
+      width: 14%;  
     }
   } /*450*/
   

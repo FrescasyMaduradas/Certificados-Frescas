@@ -24,7 +24,7 @@
 
     <div class="fondo2">
       <h1>Descarga tu Certificado aquí</h1>
-      <form action="pdf" method="post" onsubmit="return validarFormulario()">
+      <form action="pdf" method="post" onsubmit="return validarFormulario()" autocomplete="off">
         <input type="text" name="Nombre" placeholder="Nombre Completo" required>
         <Select class="Contrato" name="documento">
           <option value="Elije tipo de documento">Tipo de documento</option>
@@ -32,7 +32,7 @@
           <option value="">PPT (Permiso de Permanencia Temporal)</option>
           <option value="">Cédula Extranjera</option>
         </Select>
-        <input type="text" name="Identificación" placeholder="Número de Identificación" required>
+        <input type="number" name="Identificación" placeholder="Número de Identificación" required>
         <input type="text" name="Puesto" placeholder="Cargo" required>
         <input type="date" name="Fecha" placeholder="ingresa tu fecha de ingreso" required>
         <select class="Contrato" name="Contrato" required>
